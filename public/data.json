@@ -1,0 +1,35 @@
+{
+  "name": "A1",
+  "type": "directory",
+  "children": {
+    "THREAT": {
+      "type": "directory",
+      "children": {
+        "VOID-01": {
+          "type": "file",
+          "content": "FILE: A-1/THREAT/VOID-01\nRISK: SEVERE\nLIKELIHOOD: MODERATE (RISING)\nSUMMARY: Highest external candidate for deliberate incursion; long-horizon strategist.\nDETAILS:\nBeholder intelligence has classified many contenders for threats to the Library. However, the one we share a domain with remains the highest candidate to invade this reality in pursuit of power. Reports are scarce, but the being called Tel’ameth in their native tongue appears capable of cunning and long-term schemes to achieve its goals.\nWhile confinement and failsafes are excellent and constantly refined, it is not out of the realm of possibility that the increasing store of magical energy within the city and Library will act as a beacon to such a creature."
+        },
+        "SEA-01": {
+          "type": "file",
+          "content": "FILE: A-1/THREAT/SEA-01\nRISK: HIGH (VOLATILE)\nLIKELIHOOD: LOW (DIRECT INCURSION) / HIGH (INDIRECT ARTIFACT RISK)\nSUMMARY: Chaotic source domain; patterns unclear; artifacts frequently hazardous.\nDETAILS:\nA volatile force by any measure. However, there has never been any discernible pattern to its goals. The artifacts that originate from it, or those that have existed in the history of the world in reverence of it, are often frustrating to deal with.\nUnlike the Void, it is unclear if there is any guiding intelligence. Still, some of the threats that have emerged over the years are chaotic enough to warrant preemptive action."
+        },
+        "LIFE-01": {
+          "type": "file",
+          "content": "FILE: A-1/THREAT/LIFE-01\nRISK: MODERATE\nLIKELIHOOD: LOW (SYSTEMIC) / MODERATE (LOCALIZED ACTORS)\nSUMMARY: No unified front; most conflicts are regional, ideological, or devotional.\nDETAILS:\nThe creatures of the Life realm, to my knowledge, have not expressed any unifying front nor desire to claim power. Of their many demigods and robust religious factions, some could prove hostile; however, none, bar independent actors, would reach for power on the scale of this city.\nMost are content expanding their own influence in matters concerning their specific belief system or magical practice."
+        },
+        "DEMONS-01": {
+          "type": "file",
+          "content": "FILE: A-1/THREAT/DEMONS-01\nRISK: HIGH\nLIKELIHOOD: UNKNOWN (INSUFFICIENT DATA)\nSUMMARY: Rare encounters; malice and hierarchy implied; chaotic threats with intent.\nDETAILS:\nVile creatures. Encounters have been too few to provide a reliable estimate, but they are what the Sea of Possibility fails to become. Often, demons are refined versions of what one might encounter from an oddity of the Sea, except they introduce malice and volatility into that chaos.\nThey speak of demon lords and hierarchy. It is plausible that such structures could eventually set their sights upon this city."
+        },
+        "MORTALS-01": {
+          "type": "file",
+          "content": "FILE: A-1/THREAT/MORTALS-01\nRISK: HIGH (LONG-TERM)\nLIKELIHOOD: MODERATE (POLITICAL) / LOW (IMMEDIATE)\nSUMMARY: Mortals remain the most predictable aggressors; infiltration risk is the principal concern.\nDETAILS:\nWhile Altaria has presented itself as a beacon to the world, I am not so naïve as to think that mine and Viridia’s dream will ever be fully realized. For every enlightened soul, there will always be those who believe the world belongs to them and should be claimed by force.\nMany nations could fill the role of aggressor, but at this point the only ones truly dangerous, should they turn their gaze this way, are the High Elves. They are the only ones with sufficient magical understanding to decipher this construct. The only ones with a network vast enough to infiltrate. And the only ones who have already made attempts at subterfuge.\nIt is bad enough that my home city has chosen to side with them in political debates. Sanctia was never going to reach the majesty of Altaria, but I thought our outreach had implied a desire to share the fruit of our labors. Perhaps a few centuries down the line. I do not know.\nI have neither the time nor the patience to play politics right now."
+        },
+        "UNKNOWN-00": {
+          "type": "file",
+          "content": "FILE: A-1/THREAT/UNKNOWN-00\nRISK: VARIABLE (POTENTIALLY SEVERE)\nLIKELIHOOD: UNKNOWN\nSUMMARY: Unclassified events suggest a driving force not yet named; origins remain unresolved.\nDETAILS:\nThis entry is designated for those threats that lack a reliable name. Yet there are events that cannot be explained without some driving force behind them. This is wildly theoretical, but resources should be assigned.\nThe world is full of oddities, and my little girl was not the first. But something gave Altaria her powers, and to this day I have no clue what it could be.\nMaybe 0-1 was right, perhaps discovering more about the origins of our cosmos would lead to that answer.\nThe Language of the World is flirting with madness even more than attempting to understand the Sea of Possibility. Yet a few decades ago that giant came to the city, and everyone said out loud what I have said every time I have looked my baby girl in the eyes:\nSomething about them is ancient.\nAnd as much as it awes me, it also terrifies me. That fear, that, is cause for preparation, even if it never amounts to anything.\nCONCLUSION: Maintain readiness. Treat the unknown as real until proven otherwise."
+        }
+      }
+    }
+  }
+}

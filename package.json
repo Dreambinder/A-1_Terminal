@@ -1,0 +1,12 @@
+{
+  "name": "relay-terminal",
+  "version": "1.0.0",
+  "description": "Fake CRT archive terminal for DnD",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

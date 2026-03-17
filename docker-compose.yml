@@ -1,0 +1,7 @@
+services:
+  relay-terminal:
+    build: .
+    container_name: relay-terminal
+    ports:
+      - "3000:3000"
+    restart: unless-stopped

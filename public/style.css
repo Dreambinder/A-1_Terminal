@@ -1,0 +1,93 @@
+:root {
+  --bg: #07110a;
+  --bg2: #0b1a0d;
+  --text: #7CFF9B;
+  --dim: #4dbb68;
+  --glow: rgba(124, 255, 155, 0.25);
+  --border: #1d4f2b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at center, var(--bg2), var(--bg));
+  color: var(--text);
+  font-family: "Courier New", Courier, monospace;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.terminal-shell {
+  width: min(1000px, 96vw);
+  height: min(90vh, 900px);
+  margin: 4vh auto;
+  border: 1px solid var(--border);
+  box-shadow:
+    0 0 10px var(--glow),
+    inset 0 0 20px rgba(124, 255, 155, 0.08);
+  background: rgba(0, 0, 0, 0.35);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.terminal-output {
+  flex: 1;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  line-height: 1.45;
+  text-shadow: 0 0 4px var(--glow);
+  padding-right: 10px;
+}
+
+.input-line {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+}
+
+.prompt {
+  color: var(--text);
+  min-width: 100px;
+}
+
+.terminal-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text);
+  font: inherit;
+  text-shadow: 0 0 4px var(--glow);
+}
+
+.crt-overlay {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.00) 0px,
+      rgba(255, 255, 255, 0.00) 2px,
+      rgba(0, 0, 0, 0.10) 3px,
+      rgba(0, 0, 0, 0.10) 4px
+    );
+  opacity: 0.2;
+}
+
+.entry-title {
+  color: #a8ffba;
+  font-weight: bold;
+}
+
+.dim {
+  color: var(--dim);
+}
