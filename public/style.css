@@ -1,10 +1,10 @@
 :root {
-  --bg: #07110a;
-  --bg2: #0b1a0d;
-  --text: #7CFF9B;
-  --dim: #4dbb68;
-  --glow: rgba(124, 255, 155, 0.25);
-  --border: #1d4f2b;
+  --bg: #050814;
+  --bg2: #0a1024;
+  --text: #8fd3ff;
+  --dim: #5ca9d6;
+  --glow: rgba(143, 211, 255, 0.28);
+  --border: #244a74;
 }
 
 * {
@@ -28,8 +28,8 @@ body {
   border: 1px solid var(--border);
   box-shadow:
     0 0 10px var(--glow),
-    inset 0 0 20px rgba(124, 255, 155, 0.08);
-  background: rgba(0, 0, 0, 0.35);
+    inset 0 0 20px var(--glow);
+  background: rgba(36, 99, 207, 0.119);
   padding: 18px;
   display: flex;
   flex-direction: column;
@@ -84,7 +84,7 @@ body {
 }
 
 .entry-title {
-  color: #a8ffba;
+  color: #a8c6ff;
   font-weight: bold;
 }
 
